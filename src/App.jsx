@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react'
+import { SearchPage } from '/SearchPage'
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-<p>app init</p>
+      <p>app init</p>
+      <SearchPage />
     </div>
   )
 }
